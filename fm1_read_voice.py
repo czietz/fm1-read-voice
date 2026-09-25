@@ -66,8 +66,8 @@ def unpack7(data):
 
     return bytes(unpacked)
 
-# Make a M-VAVE custom command, give a command byte and a payload
-# The length of the payload and the checksum inserted automatically,
+# Make a M-VAVE custom command, given a command byte and a payload
+# The length of the payload and the checksum are inserted automatically,
 # and the command is packed into 7-bit SysEx format
 def mkcmd(cmd, payload):
     lp = len(payload)
