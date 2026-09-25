@@ -3,6 +3,8 @@
 # Read the current voice from M-VAVE FM-1 synthesizer via USB MIDI
 # Tested with firmware V14 and V15
 
+# USE AT YOUR OWN RISK!
+
 # Copyright (c) 2026 Christian Zietz
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
